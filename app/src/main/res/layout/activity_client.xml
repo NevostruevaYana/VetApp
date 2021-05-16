@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".LoginClientActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo_2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pets" />
+
+
+        <EditText
+            android:id="@+id/client_personal_code"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="@string/personal_code"
+            android:inputType="textPersonName"
+            android:text="clme6x85ud8"/>
+
+        <Button
+            android:id="@+id/button_login_client"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="serif-monospace"
+            android:text="@string/sign_in"
+            android:textSize="18sp"
+            app:backgroundTint="@color/cyan" />
+
+        <Button
+            android:id="@+id/button_register_client"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif-monospace"
+            android:text="@string/i_am_not_a_client_yet"
+            android:textSize="18sp"
+            app:backgroundTint="@color/cyan" />
+
+        <Button
+            android:id="@+id/to_worker_login"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:fontFamily="serif-monospace"
+            android:text="@string/i_am_a_worker"
+            android:textSize="18sp"
+            app:backgroundTint="@color/cyan" />
+
+    </LinearLayout>
+</LinearLayout>

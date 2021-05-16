@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".RegisterClientActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/consid_cl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_your_personal_data"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/cyan"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/reg_full_name_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_nam" />
+
+            <EditText
+                android:id="@+id/reg_full_name"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:textSize="12dp"
+                android:layout_marginRight="18dp"
+                android:fontFamily="monospace"
+                android:inputType="textPersonName"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/reg_address_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addres" />
+
+            <EditText
+                android:id="@+id/reg_address"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:textSize="12dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="monospace"
+                android:inputType="textPersonName"
+                android:gravity="center"
+                android:hint="@string/help"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/reg_phone_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone" />
+
+            <EditText
+                android:id="@+id/reg_phone"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:textSize="12dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="monospace"
+                android:inputType="textPersonName"
+                android:hint="@string/_7_9xx_xxx_xx_xx"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/consid_pet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_register_you_must_have_at_n_least_one_pet"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/cyan"/>
+
+            <TextView
+                android:id="@+id/ps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/if_you_have_more_than_one_animal_you_can_add_them_after_registration_on_your_personal_page" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/reg_animal_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anima" />
+
+            <EditText
+                android:id="@+id/reg_animal"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:textSize="12dp"
+                android:layout_marginRight="6dp"
+                android:fontFamily="monospace"
+                android:inputType="textPersonName"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/reg_pet_name_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_" />
+
+            <EditText
+                android:id="@+id/reg_pet_name"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="monospace"
+                android:inputType="textPersonName"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/reg_gender_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gende" />
+
+            <EditText
+                android:id="@+id/reg_gender"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:layout_marginRight="6dp"
+                android:textSize="12dp"
+                android:fontFamily="monospace"
+                android:inputType="textPersonName"
+                android:hint="@string/male_femal"
+                android:gravity="center"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/reg_date_of_birth_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_of_birt" />
+
+                <EditText
+                    android:id="@+id/reg_date_of_birth_pet"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:textSize="12dp"
+                    android:fontFamily="monospace"
+                    android:inputType="textPersonName"
+                    android:hint="@string/dd_mm_yyyy"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/reg_weight_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weigh" />
+
+                <EditText
+                    android:id="@+id/reg_weight"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:fontFamily="monospace"
+                    android:inputType="textPersonName"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:layout_marginRight="4dp"
+                    android:hint="@string/weight_may_be_integer_or_ndouble_use"/>
+            </LinearLayout>
+
+        <Button
+            android:id="@+id/button_register_client_2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="serif-monospace"
+            android:text="@string/registering"
+            android:textSize="18sp"
+            app:backgroundTint="@color/cyan" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

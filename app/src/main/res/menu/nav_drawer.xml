@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_profile"
+        android:title="My profile"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:icon="@drawable/person_vector"/>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/tables">
+            <menu>
+            <item
+                android:id="@+id/menu_employees"
+                android:title="@string/employees"
+                android:textSize="18sp"
+                android:fontFamily="monospace"
+                android:icon="@drawable/people_vector"/>
+            <item
+                android:id="@+id/menu_clients"
+                android:title="@string/clients"
+                android:icon="@drawable/people_vector"/>
+            <item
+                android:id="@+id/menu_pets"
+                android:title="@string/pets"
+                android:icon="@drawable/pet_vector"/>
+            <item
+                android:id="@+id/menu_drugs"
+                android:title="@string/drugs"
+                android:icon="@drawable/drug_vector"/>
+            <item
+                android:id="@+id/menu_requests"
+                android:title="@string/drug_requests"
+                android:icon="@drawable/req_vector"/>
+            <item
+                android:id="@+id/menu_services"
+                android:title="@string/services"
+                android:icon="@drawable/serv_vector"/>
+            <item
+                android:id="@+id/menu_schedule"
+                android:title="@string/schedule_of_visit"
+                android:icon="@drawable/schedule_vector"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="@string/actions">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="@string/log_out"
+                android:icon="@drawable/logout_vector"/>
+        </menu>
+    </item>
+
+</menu>
